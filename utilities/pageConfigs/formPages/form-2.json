@@ -1,0 +1,22 @@
+{
+  "title": "Form 2",
+  "layout": "./layouts/Form.js",
+  "children": [
+    {
+      "component": "FormConstructor",
+      "data": {
+        "title": "Sample Form",
+        "description": "Instructions go here",
+        "section": "Upload"
+      },
+      "children": [
+        {
+          "component": "UploadField",
+          "data": {
+            "label": "Upload"
+          }
+        }
+      ]
+    }
+  ]
+}

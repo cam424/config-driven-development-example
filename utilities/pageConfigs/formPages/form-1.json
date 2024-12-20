@@ -1,0 +1,30 @@
+{
+  "title": "Form 1",
+  "layout": "./layouts/Form.js",
+  "children": [
+    {
+      "component": "FormConstructor",
+      "data": {
+        "title": "Sample Form",
+        "description": "Instructions go here",
+        "section": "User"
+      },
+      "children": [
+        {
+          "component": "InputField",
+          "data": {
+            "label": "Name",
+            "placeholder": "Jane Doe"
+          }
+        },
+        {
+          "component": "InputField",
+          "data": {
+            "label": "Address",
+            "placeholder": "123 Main St. Seattle, WA 98102"
+          }
+        }
+      ]
+    }
+  ]
+}
